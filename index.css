@@ -59,8 +59,42 @@ nav ul li a {
 }
 
 footer {
-  background-color: #1e3932;
+  background-color: #000;
   color: #fff;
   padding: 20px;
   text-align: center;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  flex: 1;
+  margin: 10px;
+  min-width: 120px;
+}
+
+.footer-links strong {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 5px 0;
+  display: block;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.bottom-info {
+  font-size: 12px;
+  margin-top: 10px;
 }
